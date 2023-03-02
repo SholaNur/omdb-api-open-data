@@ -60,5 +60,7 @@ function getValue() {
       console.log(posterImg);
     });
 }
-
+window.onload = function () {
+  searchInput.focus();
+};
 searchBtn.addEventListener("click", getValue);
